@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand navbar-dark bg-dark">
     <div class="container">
       <div class="navbar-header">
-        <router-link class="navbar-brand" to="/">Laravel Sanctum</router-link>
+        <router-link class="navbar-brand" to="/">Full-stack Calendar App</router-link>
       </div>
       <ul class="nav navbar-nav">
         <router-link
