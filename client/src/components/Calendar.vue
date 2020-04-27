@@ -1,6 +1,5 @@
 <template>
   <div class=" align-content-center m-5">
-    <h1>{{events}}</h1>
     <v-calendar
           ref="calendar"
           v-model="focus"

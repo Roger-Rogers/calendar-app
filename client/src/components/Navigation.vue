@@ -28,6 +28,13 @@
         >
           Dashboard
         </router-link>
+        <router-link
+          v-if="isLoggedIn"
+          class="nav-item nav-link"
+          :to="{ name: 'Availability'}"
+        >
+        Availability
+        </router-link>
         <a
           class="nav-item nav-link"
           v-if="isLoggedIn"
