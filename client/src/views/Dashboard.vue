@@ -6,12 +6,14 @@
         <h3>Hello, {{ user.name }}</h3>
         <span>{{ user.email }}</span>
       </div>
+      <Calendar />
     </div>
   </div>
 </template>
 
 <script>
 import User from "../apis/User";
+import Calendar from "../components/Calendar.vue";
 
 export default {
   data() {
@@ -24,6 +26,9 @@ export default {
     User.auth().then(response => {
       this.user = response.data;
     });
+  },
+  components: {
+    Calendar
   }
 };
 </script>
