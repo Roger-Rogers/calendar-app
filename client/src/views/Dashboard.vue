@@ -6,7 +6,9 @@
         <h3>Hello, {{ user.name }}</h3>
         <span>{{ user.email }}</span>
       </div>
-      <Calendar />
+      <v-app>
+        <Calendar />
+      </v-app>
     </div>
   </div>
 </template>
